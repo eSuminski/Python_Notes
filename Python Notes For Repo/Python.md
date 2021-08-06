@@ -10,7 +10,7 @@ name = "name"
 number = 10
 big_number = 1247342832468323483
 ```
-Python will automatically assign a type to a declared value based upon the value assigned to it. Once assigned, this value cannot be coerced into a different type because Python is a **strongly typed**:
+Python will automatically assign a type to a declared value based upon the value assigned to it. Once assigned, this value cannot be coerced into a different type because Python is a **strongly typed** language:
 ```Python
 name = "name"
 number = 10
