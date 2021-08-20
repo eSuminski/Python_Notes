@@ -1,0 +1,39 @@
+Select the correct class declaration {
+    ~ def class my_class:
+    ~ def class MyClass:
+    ~ class my_class:
+    = class MyClass:
+}
+
+How do you make a class inherit from another class {
+    ~ use the "implements" keyword
+    = declare the parent class as a parameter
+    ~ use the "extends" keyword
+    ~ Python classes can't inherit from other classes
+}
+
+True or False: Python classes can inherit from multiple classes {
+    = True
+    ~ False
+}
+
+Select the correct constructor declaration that takes in a variable called "name" {
+    ~ def __init__(self, name) -> MyClass:
+    = def __init__(self, name) -> None:
+    ~ def __init__(self) -> name:
+    ~ def __init__(self) -> None:
+}
+
+Select the correct methods of accessing a parent constructor within a child constructor {
+    = parent.__init__(self)
+    ~ parent.__init__()
+    ~ super().__init__(self)
+    = super().__init__()
+}
+
+True or False: the provided constructor will throw an error when it is called
+def __init__(self) -> None:
+    print("Can I do this?") {
+        ~ True
+        = False
+    }
